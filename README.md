@@ -22,4 +22,11 @@ Repositorio práctico enfocado en automatización de seguridad, DevSecOps y audi
 - **Herramientas:** ARTEX (Multi-Agent Pentesting), LiteLLM AI Gateway, Docker, Python, Pandoc/WeasyPrint.
 - **Descripción:** Implementación de una arquitectura de pentesting autónomo respaldada por un AI Gateway centralizado con balanceo de carga y failover automático entre múltiples proveedores LLM. Ejecución de auditorías OWASP Top 10, generación de informes ejecutivos con evidencia HTTP reproducible (PoC) y aplicación de parches de remediación en ciclo DevSecOps (`DEBUG=False` y control de acceso en APIs REST).
 
+
+### 4. Laboratorio Purple Team: Ataque Autónomo (ARTEX) y Detección SIEM (Wazuh)
+- **Ubicación:** [04-laboratorio-purple-team-artex-wazuh/](04-laboratorio-purple-team-artex-wazuh/)
+- **Archivos:** [Documentación del Laboratorio](04-laboratorio-purple-team-artex-wazuh/README.md) | [Reglas SIEM (local_rules.xml)](04-laboratorio-purple-team-artex-wazuh/local_rules.xml)
+- **Herramientas:** Wazuh SIEM (v4.8.0), ARTEX, LiteLLM AI Gateway, Docker, MITRE ATT&CK.
+- **Descripción:** Simulación de ataques web automatizados (XSS y RCE) correlacionados en tiempo real con Wazuh SIEM. Desarrollo de reglas personalizadas de detección crítica (niveles 12 y 13) mapeadas a técnicas MITRE ATT&CK (`T1190`, `T1059`).
+
 *Desarrollado como evidencia de competencias técnicas en ingeniería de seguridad e infraestructura.*
