@@ -1,5 +1,7 @@
 # Laboratorio Purple Team: Ataque Autónomo (ARTEX) + Detección SIEM (Wazuh)
 
+- **Áreas y Competencias:** `Arquitectura de Contenedores Docker` | `Seguridad de Red y Segmentación` | `Seguridad en APIs & AppSec` | `SOC / SIEM Detection Engineering`
+
 ## Arquitectura del Ejercicio
 Este laboratorio integra capacidades ofensivas (**Red Team**) y defensivas (**Blue Team / Detection Engineering**) para validar la visibilidad ante ataques web en tiempo real:
 
