@@ -37,4 +37,12 @@ Repositorio práctico enfocado en automatización de seguridad, DevSecOps y audi
 - **Herramientas:** Lynis, cURL, Django Security Middleware, TLS/HSTS.
 - **Descripción:** Evaluación de superficie de ataque externa mediante análisis de cabeceras HTTP y auditoría de sistema con Lynis. Implementación de controles de endurecimiento en producción (HSTS de 1 año con preload, cookies `Secure`/`HttpOnly` y políticas anti-clickjacking).
 
+
+### 6. Respuesta a Incidentes y Análisis Forense de Protocolos de Red
+- **Ubicación:** [06-respuesta-incidentes-protocolos-red/](06-respuesta-incidentes-protocolos-red/)
+- **Archivos:** [Reporte Técnico](06-respuesta-incidentes-protocolos-red/README.md) | [Analizador Forense PCAP (Python)](06-respuesta-incidentes-protocolos-red/analizador_pcap.py)
+- **Áreas y Competencias:** `Incident Response (DFIR)` | `Network Protocol Forensics` | `Perimeter Defense (UFW)`
+- **Herramientas:** tcpdump, Python (Scapy), Nmap, UFW Firewall.
+- **Descripción:** Captura forense (`.pcap`) y triaje automatizado de tráfico anómalo mediante Python/Scapy para extraer Indicadores de Compromiso (`IoCs`) de escaneos `TCP SYN` y exfiltración por `DNS Tunneling`, seguido de contención perimetral con políticas restrictivas `UFW`.
+
 *Desarrollado como evidencia de competencias técnicas en ingeniería de seguridad e infraestructura.*
