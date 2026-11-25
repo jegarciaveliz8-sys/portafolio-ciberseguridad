@@ -30,4 +30,11 @@ Repositorio práctico enfocado en automatización de seguridad, DevSecOps y audi
 - **Herramientas:** Wazuh SIEM (v4.8.0), ARTEX, LiteLLM AI Gateway, Docker, MITRE ATT&CK.
 - **Descripción:** Simulación de ataques web automatizados (XSS y RCE) correlacionados en tiempo real con Wazuh SIEM. Desarrollo de reglas personalizadas de detección crítica (niveles 12 y 13) mapeadas a técnicas MITRE ATT&CK (`T1190`, `T1059`).
 
+
+### 5. Gestión de Amenazas: Hardening y Presencia en Internet (ASM)
+- **Ubicación:** [05-hardening-y-superficie-ataque/](05-hardening-y-superficie-ataque/)
+- **Áreas y Competencias:** `Attack Surface Management (ASM)` | `Web & Cloud Hardening` | `Linux Security Auditing`
+- **Herramientas:** Lynis, cURL, Django Security Middleware, TLS/HSTS.
+- **Descripción:** Evaluación de superficie de ataque externa mediante análisis de cabeceras HTTP y auditoría de sistema con Lynis. Implementación de controles de endurecimiento en producción (HSTS de 1 año con preload, cookies `Secure`/`HttpOnly` y políticas anti-clickjacking).
+
 *Desarrollado como evidencia de competencias técnicas en ingeniería de seguridad e infraestructura.*
